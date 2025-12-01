@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Student Wallet Demo',
+      title: 'Student Wallet',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         useMaterial3: true,

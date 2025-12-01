@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
                 const CircleAvatar(child: Text('S')),
                 const SizedBox(width: 12),
                 const Expanded(
-                  child: Text('Welcome back,\nSTUDENT NAME',
+                  child: Text('Welcome back,\nAthina Sarkar Chaitee',
                       style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 IconButton(onPressed: () {}, icon: const Icon(Icons.notifications))
@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(18),
               decoration: BoxDecoration(
-                color: Colors.deepPurple,
+                color: const Color.fromARGB(255, 183, 58, 173),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Row(
@@ -39,13 +39,13 @@ class HomeScreen extends StatelessWidget {
                         Text('Total Balance',
                             style: TextStyle(color: Colors.white70)),
                         SizedBox(height: 8),
-                        Text('\$8,945.32',
+                        Text('\$1,221.82',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 28,
                                 fontWeight: FontWeight.bold)),
                         SizedBox(height: 6),
-                        Text('Savings: \$5,500  •  Last 30 days: +\$300',
+                        Text('Savings: \$2,500  •  Last 30 days: +\$100',
                             style: TextStyle(color: Colors.white70))
                       ],
                     ),
@@ -74,7 +74,7 @@ class HomeScreen extends StatelessWidget {
               children: const [
                 Text('Recent Transactions',
                     style: TextStyle(fontWeight: FontWeight.bold)),
-                Text('View All', style: TextStyle(color: Colors.blue)),
+                Text('View All', style: TextStyle(color: Color.fromARGB(255, 12, 91, 157))),
               ],
             ),
             const SizedBox(height: 8),
@@ -86,28 +86,28 @@ class HomeScreen extends StatelessWidget {
                   _TransactionTile(
                     title: 'Netflix Subscription',
                     subtitle: 'Entertainment • Today',
-                    amount: '-\$19.99',
+                    amount: '-\$23.21',
                   ),
                   _TransactionTile(
                     title: 'Coffee Shop',
                     subtitle: 'Food & Drink • Today',
-                    amount: '-\$4.50',
+                    amount: '-\$14.45',
                   ),
                   _TransactionTile(
                     title: 'Salary Deposit',
                     subtitle: 'Income • Yesterday',
-                    amount: '+\$3500.00',
+                    amount: '+\$120.00',
                     amountColor: Colors.green,
                   ),
                   _TransactionTile(
                     title: 'Grocery Store',
                     subtitle: 'Shopping • Yesterday',
-                    amount: '-\$55.80',
+                    amount: '-\$73.32',
                   ),
                   _TransactionTile(
                     title: 'Amazon Purchase',
                     subtitle: 'Shopping • 2 days ago',
-                    amount: '-\$120.45',
+                    amount: '-\$134.65',
                   ),
                 ],
               ),
