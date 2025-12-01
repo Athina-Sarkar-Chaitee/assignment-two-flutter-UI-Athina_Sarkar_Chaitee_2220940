@@ -25,7 +25,7 @@ class CardsScreen extends StatelessWidget {
             const Text('My Cards', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 12),
 
-            // Demo card appearance
+            //  card appearance
             Container(
               width: double.infinity,
               padding: const EdgeInsets.all(18),
@@ -41,12 +41,12 @@ class CardsScreen extends StatelessWidget {
                     child: Icon(Icons.credit_card, color: Colors.white),
                   ),
                   SizedBox(height: 12),
-                  Text('4567 **** **** 1234', style: TextStyle(color: Colors.white, fontSize: 22, letterSpacing: 2)),
+                  Text('1234 **** **** 5678', style: TextStyle(color: Colors.white, fontSize: 22, letterSpacing: 2)),
                   SizedBox(height: 8),
                   Text('CARD HOLDER', style: TextStyle(color: Colors.white70)),
-                  Text('STUDENT NAME', style: TextStyle(color: Colors.white)),
+                  Text('Ahtina Sarkar Chaitee', style: TextStyle(color: Colors.white)),
                   SizedBox(height: 8),
-                  Text('EXPIRES 12/28', style: TextStyle(color: Colors.white70)),
+                  Text('EXPIRES 12/27', style: TextStyle(color: Colors.white70)),
                 ],
               ),
             ),
@@ -70,7 +70,7 @@ class CardsScreen extends StatelessWidget {
               child: ListTile(
                 leading: const CircleAvatar(child: Text('S')),
                 title: const Text('Shared Savings'),
-                subtitle: const Text('\$5,500.00'),
+                subtitle: const Text('\$2,500.00'),
                 trailing: const Icon(Icons.arrow_forward_ios, size: 16),
                 onTap: () {},
               ),
