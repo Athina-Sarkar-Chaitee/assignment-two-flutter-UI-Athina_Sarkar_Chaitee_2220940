@@ -6,11 +6,11 @@ class ReportsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // Demo spending breakdown values
     final breakdown = [
-      _BreakdownItem('Food & Drink', 450.00, 35),
-      _BreakdownItem('Shopping', 320.00, 25),
-      _BreakdownItem('Housing', 280.00, 22),
-      _BreakdownItem('Transport', 150.00, 12),
-      _BreakdownItem('Other', 70.00, 6),
+      _BreakdownItem('Food & Drink', 120.00, 35),
+      _BreakdownItem('Shopping', 420.00, 25),
+      _BreakdownItem('Housing', 150.00, 22),
+      _BreakdownItem('Transport', 200.00, 12),
+      _BreakdownItem('Other', 44.00, 6),
     ];
 
     return SafeArea(
@@ -25,7 +25,7 @@ class ReportsScreen extends StatelessWidget {
                 CircleAvatar(child: Text('S')),
                 SizedBox(width: 12),
                 Expanded(
-                  child: Text('Welcome back,\nSTUDENT NAME', style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text('Welcome back,\nAthina Sarkar Chaitee', style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 SizedBox(width: 8),
               ],
@@ -43,7 +43,7 @@ class ReportsScreen extends StatelessWidget {
                   children: const [
                     Text('Total Expenses (Last 30 days)', style: TextStyle(color: Colors.black54)),
                     SizedBox(height: 8),
-                    Text('-\$1270.00', style: TextStyle(color: Colors.red, fontSize: 22, fontWeight: FontWeight.bold)),
+                    Text('-\$934.00', style: TextStyle(color: Color.fromARGB(255, 234, 43, 30), fontSize: 22, fontWeight: FontWeight.bold)),
                     SizedBox(height: 4),
                     Text('Up 12% from last month', style: TextStyle(color: Colors.redAccent)),
                   ],

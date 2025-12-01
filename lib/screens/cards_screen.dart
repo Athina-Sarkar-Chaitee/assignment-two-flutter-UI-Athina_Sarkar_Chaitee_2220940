@@ -16,7 +16,7 @@ class CardsScreen extends StatelessWidget {
                 CircleAvatar(child: Text('S')),
                 SizedBox(width: 12),
                 Expanded(
-                  child: Text('Welcome back,\nSTUDENT NAME', style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text('Welcome back,\nAthina Sarkar Chaitee', style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 SizedBox(width: 8),
               ],
