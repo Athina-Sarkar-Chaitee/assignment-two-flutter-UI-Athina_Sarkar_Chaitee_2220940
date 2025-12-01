@@ -13,7 +13,7 @@ class CardsScreen extends StatelessWidget {
             // Header
             Row(
               children: const [
-                CircleAvatar(child: Text('S')),
+                CircleAvatar(child: Text('A')),
                 SizedBox(width: 12),
                 Expanded(
                   child: Text('Welcome back,\nAthina Sarkar Chaitee', style: TextStyle(fontWeight: FontWeight.bold)),

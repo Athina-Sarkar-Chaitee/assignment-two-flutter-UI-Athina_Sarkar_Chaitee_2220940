@@ -12,10 +12,10 @@ class ProfileScreen extends StatelessWidget {
             // Header
             Row(
               children: const [
-                CircleAvatar(child: Text('S')),
+                CircleAvatar(child: Text('A')),
                 SizedBox(width: 12),
                 Expanded(
-                  child: Text('Welcome back,\nSTUDENT NAME', style: TextStyle(fontWeight: FontWeight.bold)),
+                  child: Text('Welcome back,\nAthina Sarkar Chaitee', style: TextStyle(fontWeight: FontWeight.bold)),
                 ),
                 SizedBox(width: 8),
               ],
@@ -23,17 +23,17 @@ class ProfileScreen extends StatelessWidget {
             const SizedBox(height: 24),
 
             // Profile tile
-            CircleAvatar(radius: 36, child: const Text('SN', style: TextStyle(fontSize: 20))),
+            CircleAvatar(radius: 36, child: const Text('ASC', style: TextStyle(fontSize: 20))),
             const SizedBox(height: 16),
 
             Card(
-              child: ListTile(title: const Text('Name'), subtitle: const Text('STUDENT NAME (YOUR NAME HERE)')),
+              child: ListTile(title: const Text('Name'), subtitle: const Text('Athina Sarkar Chaitee')),
             ),
             Card(
-              child: ListTile(title: const Text('Student ID'), subtitle: const Text('S12345 (YOUR ID HERE)')),
+              child: ListTile(title: const Text('Student ID'), subtitle: const Text('2220940')),
             ),
             Card(
-              child: ListTile(title: const Text('Email'), subtitle: const Text('student.name@iub.edu (YOUR IUB EMAIL HERE)')),
+              child: ListTile(title: const Text('Email'), subtitle: const Text('2220940@iub.edu.bd')),
             ),
             const SizedBox(height: 8),
 
@@ -48,7 +48,7 @@ class ProfileScreen extends StatelessWidget {
                     SizedBox(height: 8),
                     Text(
                       "I'm currently focusing on my final year, balancing studies with building side projects. "
-                      "I believe financial health is key to academic success. I love hiking on weekends and planning my next big travel adventure!",
+                      "I believe financial health is key to academic success. I love watching drama on weekends.!",
                     ),
                   ],
                 ),

@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
             // Header
             Row(
               children: [
-                const CircleAvatar(child: Text('S')),
+                const CircleAvatar(child: Text('A')),
                 const SizedBox(width: 12),
                 const Expanded(
                   child: Text('Welcome back,\nAthina Sarkar Chaitee',
